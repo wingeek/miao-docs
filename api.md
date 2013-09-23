@@ -13,7 +13,18 @@
   
   Method: GET
   
-  Return: 返回一个用户的个人资料，发布的所有视频，还有视频的评论。
+  Return: 返回一个自己个人资料，发布的所有视频，还有视频的评论。
+  
+### 个人评论消息API
+  Class: ApiUserController
+  
+  Function: messages
+  
+  URL：'api/people/{id}/message', id为整数型，用户的id值，
+  
+  Method: GET
+  
+  Return: 返回其他用户或是系统对自己的评论（或消息）。
   
 
 ### 应用首页API
