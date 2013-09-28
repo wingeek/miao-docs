@@ -40,6 +40,22 @@
   
   Return: error or success message ??
   
+### 个人头像上传API
+
+  Class: ApiUserController
+  
+  Function: uploadAvatar
+  
+  Input: image source data原始图像数据
+  
+  URL: 'api/avatar/{id}', id为用户的id值。
+  
+  Method: POST
+  
+  Return: 返回成功： url for ios image size
+          返回失败： 必要的信息和[错误代码](https://github.com/wingeek/miao-docs/edit/master/errorcodes.md).
+          
+
 ### 应用首页API
 
 
