@@ -54,7 +54,8 @@
   
   Return: 返回成功： url for ios image size
           返回失败： 必要的信息和[错误代码](https://github.com/wingeek/miao-docs/edit/master/errorcodes.md).
-          
+         
+  说明： 图片自动切割为20x20, 100x100, 210x210三种尺寸 
 
 ### 应用首页API
 
