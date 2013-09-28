@@ -47,5 +47,16 @@ step3： 实现分包校验的规则
 分别建立不同公司的token存储表，字段包括id, user_id,token,
 
 
+##### 9.28--10.4 api+ upload 7days
+
+要编写的api列表：
+
+  1. 用户资料api
+  2. 视频api
+  3. 注册登录api
+  4. 评论消息api
+
+上传稳定性探讨（upload）
+
 
 
