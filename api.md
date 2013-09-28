@@ -27,6 +27,7 @@
   Return: 返回其他用户或是系统对自己的评论（或消息）。
   
 ### 个人资料API
+  
   Class: ApiUserController
   
   Function: postProfile
@@ -34,6 +35,8 @@
   URL: 'api/profile/{id}', id为整数型，为个人资料的id值，不是用户id,这个用户资料的id值可以在个人首页API中获得
 
   Method: POST
+  
+  Input: [个人资料的字段](https://github.com/wingeek/miao-docs/blob/master/models/profile.md)。
   
   Return: error or success message ??
   
