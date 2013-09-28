@@ -1,4 +1,4 @@
-### a setting betwwen server and mobile for some message
+### a setting betwwen server and mobile for some messages
 
 1. 密码更改失败
 2. 密码更该成功
