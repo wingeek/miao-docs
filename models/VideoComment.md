@@ -1,6 +1,6 @@
 ### 视频评论模型
 
-  $table->increments('id');
+  	$table->increments('id');
 	$table->integer('user_id');
 	$table->integer('video_id');
 	$table->integer('commenter_id');
