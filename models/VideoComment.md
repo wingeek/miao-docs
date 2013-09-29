@@ -14,9 +14,11 @@
 	
 	commenter_id: 评论者的id
 	
-	reply_id: 如果评论是给评论的回复，那么就是那条评论的commenter_id值
+	reply_id: 如果评论是给评论的回复，那么就是那条评论的commenter_id值,默认值为0
 	
 	body: comment content
+	
+	
 	
 	
 	
